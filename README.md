@@ -7,9 +7,11 @@ The solution here was surprisingly simple: the two servers that host the myAudi 
 
 Copy the appropriate .jar file to a working MMI3G SD shell script and apply the following shell script:
 
-```mount -uw /mnt/efs-system
+```
+mount -uw /mnt/efs-system
 mv -v /mnt/efs-system/lsd/myaudiconnect_nodataconnection.jar /mnt/efs-system/lsd/myaudiconnect_nodataconnection-ORIG.jar
 cp -v myaudiconnect_nodataconnection-XY.jar /mnt/efs-system/lsd/myaudiconnection_nodataconnection.jar
-ls -o /mnt/efs-system/lsd/```
+ls -o /mnt/efs-system/lsd/
+```
 
 and restart the MMI system.
