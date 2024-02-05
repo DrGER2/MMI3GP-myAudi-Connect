@@ -15,3 +15,5 @@ ls -o /mnt/efs-system/lsd/
 ```
 
 and restart the MMI system.
+
+Credit to sm87 at the AudiWorld.com B8 forum for his many helpful suggestions for reworking the decompiled LeanSoapTransport.class so that it could be recompiled properly with J2SDK 1.4 on our Solaris 11 x64 server. --g
