@@ -9,8 +9,8 @@ Copy the appropriate .jar file to a working MMI3G SD shell script and apply the 
 
 ```
 mount -uw /mnt/efs-system
-mv -v /mnt/efs-system/lsd/myaudiconnect_nodataconnection.jar /mnt/efs-system/lsd/myaudiconnect_nodataconnection-ORIG.jar
-cp -v myaudiconnect_nodataconnection-XY.jar /mnt/efs-system/lsd/myaudiconnect_nodataconnection.jar
+mv -v /mnt/efs-system/lsd/myaudiconnect_nodataconnect.jar /mnt/efs-system/lsd/myaudiconnect_nodataconnect-ORIG.jar
+cp -v myaudiconnect_nodataconnect-XY.jar /mnt/efs-system/lsd/myaudiconnect_nodataconnect.jar
 ls -o /mnt/efs-system/lsd/
 ```
 
